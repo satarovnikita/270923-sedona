@@ -3,6 +3,9 @@
     <head>
       <meta charset="utf-8">
         <title>Седона</title>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     </head>
       <body>
         <header class="main-hedaer">
@@ -11,7 +14,7 @@
               <img src="img/logo.png" width="138" height="70" alt="Логотип Седона">
             </a>
               <div class=”main-navigation-centered”>
-                <div class=“main-navigaton-content><a href="info.html">Информация</a></div>
+                <div class=“main-navigation-content”><a href="info.html">Информация</a></div>
                 <div class=“main-navigation-content”><a href="content.html">Фото и видео</a></div>
                 <div class=“main-navigation-content”><a href="map.html">Карта Штата</a></div>
                 <div class=“main-navigation-content”><a href="hotel.html">Гостиницы</a></div>
@@ -20,7 +23,7 @@
         </header>
           <main class="container">
             <section class="features">
-              <img src="" alt="Седона" height>
+              <img src="img/intro.jpg" alt="Седона" height>
                 <h1 class="visually-hidden"> Седона </h1>
                   <p class="main-text-one">
                     <b> Седона - небольшой городок Аризоне, заслуживающий большего!</b>
@@ -30,23 +33,23 @@
                       <div class="feature-blue">
                         <h2>Настоящий городок</h2>
                         <p>№1</p>
-                        <p> Седона - не атракцион для туристов, там течет своя жизнь </p>
-                          <img src="img/city.jpg" alt="Фотография города" width="800" height="256">
+                          <p> Седона - не атракцион для туристов, там течет своя жизнь </p>
+                        </div>
+                        <img src="img/city.jpg" alt="Фотография города" width="800" height="256">
                           <ul class="fetures-recommended">
                             <li>
-                              <h3>Жилье</h3>
+                              <h2>Жилье</h2>
                               <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                             </li>
                             <li>
-                              <h3>Еда</h3>
+                              <h2>Еда</h2>
                               <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                             </li>
                             <li>
-                              <h3>Сувениры</h3>
+                              <h2>Сувениры</h2>
                                 <p>Не только китайского, но и местного производства!</p>
                             </li>
                           </ul>
-                        </div>
                           <img src="img/rocks.jpg" alt="Фото каньона">
                           <div class="feature-blue">
                             <h2>Там есть мост дьявола</h2>
@@ -71,23 +74,41 @@
                           <section class="search">
                             <p class="main-text-prelast"><b> Заинтересовались? </b></p>
                               <p class="main-text-last"> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне </p>
-                              <h2> Поиск гостиницы Седоне</h2>
-                              <img src="img/map.jpg" alt="Карта" width="1200" height="593">
-                              <!--Здесь будет форма-->
+                                <form class="search-form" >
+                                  <h2> Поиск гостиницы в Седоне</h2>
+                                  <p>
+                                    <label for="predate">Дата заезда</label>
+                                    <input type="date" id="predate" name="predate">
+                                  </p>
+                                  <p>
+                                    <label for="lastdate">Дата выезда</label>
+                                    <input type="date" id="lastdate" name="lastdate">
+                                  </p>
+                                  <p>
+                                    <label for="adults">Взрослые</label>
+                                    <input type="number" name="adults" id="adults">
+                                  <p>
+                                    <label for="kids">Дети</label>
+                                    <input type="number" name="kids" id="kids">
+                                  </p>
+                                <button class="button" type="submit">Отправить</button>
+                              </form>
+                                <img src="img/map.jpg" alt="Карта" width="1200" height="593">
                             </section>
                           </main>
                             <footer class="main-footer">
-                              <span>
+                              <span class="footer-hashtag">
                                 <b> #VISITSEDONA </b>
                               </span>
                               <div class="footer-social">
                                 <ul>
-                                  <li><a class="social-button" href="#">Твиттер</a></li>
-                                  <li><a class="social-button" href="#">Фейсбук</a></li>
-                                  <li><a class="social-button" href="#">Ютьюб</a></li>
+                                  <li><a class="button" href="#">Твиттер</a></li>
+                                  <li><a class="button" href="#">Фейсбук</a></li>
+                                  <li><a class="button" href="#">Ютьюб</a></li>
                                 </ul>
                               </div>
-                              <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+                                <span> Website by </span>
+                              <a class="footer-button" href="https://htmlacademy.ru">HTML Academy</a>
                             </footer>
                           </body>
                         </html>

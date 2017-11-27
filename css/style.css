@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px ;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+a{
+  text-decoration: none;
+}
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+
+}
+.main-navigation a {
+  color: #000000;
+}
+.main-navigation a:hover {
+    background-color: #81b3d2;
+}
+.main-navigation a:focus {
+    background-color: #cacaca;
+  }
+.features {
+  text-align: center;
+}
+.main-text-one {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+.main-text-second {
+  font-size: 14px;
+  line-height: 26px;
+}
+.feature-blue {
+  background-color: #81b3d2;
+  color: #ffffff
+}
+.feature-blue h2 {
+  font-size: 21px;
+  line-height: 21px;
+}
+.features-recommened h2 {
+  list-style: none;
+  font-size: 21px;
+  line-height: 21px;
+
+  background-color: #ffffff;
+}
+.feature-tan{
+  background-color: #eeeeee;
+}
+.feature-tan h2 {
+  font-size: 21px;
+  line-height: 21px;
+}
+.search {
+  text-align: center;
+}
+.main-text-prelast {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+.search-form {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+
+  background-color: #ffffff;
+}
+.search-form h2{
+font-size: 21px;
+line-height: 26px;
+color: #ffffff;
+
+  background-color: #766357;
+}
+.search-form input{
+  font: inherit;
+
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+.button {
+  font: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+
+  text-align: center;
+  background-color: #81b3d2;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+
+}
+.button:hover{
+  background-color: #81b3d2;
+}
+.button:focus{
+  background-color: #669ec0;
+}
+.button:active{
+  background-color: #5496bd;
+  color: #94b9d2;
+}
+.main-footer {
+  font: inherit;
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.footer-hashtag b{
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+.footer-button{
+  color:#000000;
+}
+.footer-button:hover{
+  color: #000000;
+}
+.footer-button:focus{
+  color: #81b3d2;
+}
+.footer-button:active{
+  color: #cacaca;
+}
+
+
+  .inner-page{
+    font: "PT Sans", Arial, sans-serif;
+
+    background-color: #ffffff;
+
+
+  }
+  .filtr{
+    background-image: url("img/blur.jpg") no-repeat;
+  }
+  .results-text, .results-number {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+
+  }
+  .sort {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .sort-function{
+    font-size: 12px;
+    line-height: 18px;
+
+    list-style: none;
+    color: #cacaca;
+    border-bottom: dashed 1px;
+
+  }
+
+    .sort-function-active {
+      font-size: 12px;
+      line-height: 18px;
+      list-style: none;
+      color:  #81b3d2;
+      text-decoration: none;
+
+    }
+
+
+
+  .sort-function:hover{
+    color: #cacaca;
+  }
+  .sort-function:focus{
+    color: #81b3d2;
+  }
+  .sort-function:active{
+    color: #000000;
+  }
+
+
+  .button-info {
+    font: inherit;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-align: center;
+    background-color: #81b3d2;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: none;
+
+  }
+  .button-info:hover{
+    background-color: #81b3d2;
+  }
+  .button-info:focus{
+    background-color: #669ec0;
+  }
+  .button-info:active{
+    background-color: #5496bd;
+    color: #94b9d2;
+  }
+
+
+  .button-reserved {
+    font: inherit;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-align: center;
+    background-color: #766357;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: none;
+  }
+
+.button-reserved:hover{
+  background-color: #766357;
+}
+.button-reserved:focus{
+  background-color: #604e43;
+}
+.button-reserved:active{
+  background-color: #503e33;
+  color: #928a85;
+}
+  .stars {
+    color: #81b3d2;
+  }
+  .rating {
+    background-color: #f2f2f2;
+  }
